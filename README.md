@@ -14,4 +14,4 @@ Rendering the page layout should be straightforwards:
 - One button to copy a colour's hex code
 - Functionality to allow users to change each individual colour's hex code
 
-To generate multiple hex code colours, the colour palette will need to incorporate a method such as `math.floor(math.random())`. I envisage assigning these randomly generated colours to the div elements, which will update each time the user presses the <kbd> <br> Spacebar <br> </kbd>.
+To generate multiple hex code colours, the colour palette will need to incorporate a method such as `math.floor(math.random())`. I envisage assigning these randomly generated colours to the `<div>` elements, which will update each time the user presses the <kbd> <br> Spacebar <br> </kbd>.
