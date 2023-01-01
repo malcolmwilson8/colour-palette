@@ -5,7 +5,7 @@
 - [x] Code hosted on GitHub
 - [x] Deployed to GitHub Pages
 - [x] Auto-generate multiple colours
-- [ ] Allow users to change each colour
+- [x] Allow users to change each colour
 
 ## Initial thoughts
 Rendering the page layout should be straightforwards: 
