@@ -2,7 +2,7 @@
 
 ## Objectives
 - [x] Built with HTML, CSS & JS
-- [ ] Code hosted on GitHub
+- [x] Code hosted on GitHub
 - [x] Deployed to GitHub Pages
 - [x] Auto-generate multiple colours
 - [ ] Allow users to change each colour
