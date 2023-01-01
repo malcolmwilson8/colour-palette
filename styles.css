@@ -14,12 +14,20 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 50px;
+    text-align: center;
 }
 
 .colour-content{
-    padding-top: 250px;
+    padding-top: 350px;
     height: 100vh;
     width: 100%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.current-hex{
+    display: flex;
+    justify-content: center;
 }
 
 .toggle-lock{
@@ -42,6 +50,7 @@ body{
     top: 0;
     left: 0;
     list-style-type: none;
+    font-size: large;
 }
 
 li{
