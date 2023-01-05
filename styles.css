@@ -17,7 +17,7 @@ body{
     text-align: center;
 }
 
-.colour-content{
+.colour-content1{
     padding-top: 350px;
     height: 100vh;
     width: 100%;
@@ -25,7 +25,59 @@ body{
     font-weight: bold;
 }
 
-.current-hex{
+.colour-content2{
+    padding-top: 350px;
+    height: 100vh;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.colour-content3{
+    padding-top: 350px;
+    height: 100vh;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.colour-content4{
+    padding-top: 350px;
+    height: 100vh;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.colour-content5{
+    padding-top: 350px;
+    height: 100vh;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.current-hex1{
+    display: flex;
+    justify-content: center;
+}
+
+.current-hex2{
+    display: flex;
+    justify-content: center;
+}
+
+.current-hex3{
+    display: flex;
+    justify-content: center;
+}
+
+.current-hex4{
+    display: flex;
+    justify-content: center;
+}
+
+.current-hex5{
     display: flex;
     justify-content: center;
 }
