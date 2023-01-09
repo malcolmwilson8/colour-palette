@@ -12,7 +12,7 @@
 - [x] Generate related colours rather than random (e.g. ascending lightness, complementary hues etc)
 - [ ] Save palettes to localStorage
 - [ ] Lock function
-- [ ] Copy function
+- [x] Copy function
 
 ## Initial thoughts
 Rendering the page layout should be straightforwards: 
