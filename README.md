@@ -9,7 +9,7 @@
 
 ## Optional features
 - [ ] Export colour palette in different formats (e.g. JSON, CSS variables)
-- [x] Generate related colours rather than random (e.g. ascending lightness, complementary hues etc)
+- [ ] Generate related colours rather than random (e.g. ascending lightness, complementary hues etc)
 - [ ] Save palettes to localStorage
 - [ ] Lock function
 - [x] Copy function
