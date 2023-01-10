@@ -8,7 +8,7 @@
 - [x] Allow users to change each colour
 
 ## Optional features
-- [ ] Export colour palette in different formats (e.g. JSON, CSS variables)
+- [x] Export colour palette in different formats (e.g. JSON, CSS variables)
 - [ ] Generate related colours rather than random (e.g. ascending lightness, complementary hues etc)
 - [ ] Save palettes to localStorage
 - [ ] Lock function
