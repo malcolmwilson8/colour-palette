@@ -18,13 +18,16 @@ let hexChange2 = document.getElementsByClassName("hex-changer2");
 let hexChange3 = document.getElementsByClassName("hex-changer3");
 let hexChange4 = document.getElementsByClassName("hex-changer4");
 let hexChange5 = document.getElementsByClassName("hex-changer5");
-let lockit = document.getElementsByClassName("toggle-lock");
 let copyit1 = document.getElementById("copy-colour1");
 let copyit2 = document.getElementById("copy-colour2");
 let copyit3 = document.getElementById("copy-colour3");
 let copyit4 = document.getElementById("copy-colour4");
 let copyit5 = document.getElementById("copy-colour5");
 let xportBtn = document.getElementById("export-button");
+
+document.addEventListener("DOMContentLoaded", genColours());
+
+//Function to export current palette as txt file
 
 xportBtn.addEventListener('click', function(e){
     e.preventDefault();
@@ -51,10 +54,6 @@ xportBtn.addEventListener('click', function(e){
 
 // Added functionality which performs when spacebar is pressed and performs the changeColours function
 let spacePressed = document.body.onkeyup = function(e){if(e.keyCode == 32){genColours()}};
-
-
-// Trying to add lock functionality
-// lockit.addEventListener('click', () => {})
 
 // For loop which copies the current colour, displaying an alert
 
