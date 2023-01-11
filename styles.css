@@ -10,14 +10,17 @@ body{
     margin: 0;
 }
 
+p button{
+margin-bottom: 10px;
+}
+
 .container{
     display: flex;
     justify-content: center;
-    padding-top: 50px;
     text-align: center;
 }
 
-.colour-content1{
+.colour-content1, .colour-content2, .colour-content3, .colour-content4, .colour-content5{
     padding-top: 350px;
     height: 100vh;
     width: 100%;
@@ -25,59 +28,7 @@ body{
     font-weight: bold;
 }
 
-.colour-content2{
-    padding-top: 350px;
-    height: 100vh;
-    width: 100%;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.colour-content3{
-    padding-top: 350px;
-    height: 100vh;
-    width: 100%;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.colour-content4{
-    padding-top: 350px;
-    height: 100vh;
-    width: 100%;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.colour-content5{
-    padding-top: 350px;
-    height: 100vh;
-    width: 100%;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-.current-hex1{
-    display: flex;
-    justify-content: center;
-}
-
-.current-hex2{
-    display: flex;
-    justify-content: center;
-}
-
-.current-hex3{
-    display: flex;
-    justify-content: center;
-}
-
-.current-hex4{
-    display: flex;
-    justify-content: center;
-}
-
-.current-hex5{
+.current-hex1, .current-hex2, .current-hex3, .current-hex4, .current-hex5{
     display: flex;
     justify-content: center;
 }
@@ -92,17 +43,23 @@ body{
     width: 20px;
 }
 
+.export-colour{
+    padding-top: 27px;
+    height: 40px;
+    width: 40px;
+}
+
 .strapline{
     background: #000000;
     display: flex;
     width: 100%;
     height: fit-content;
-    justify-content: center;
+    justify-content: space-around;
     position: fixed;
     top: 0;
     left: 0;
     list-style-type: none;
-    font-size: large;
+    font-size: x-large;
 }
 
 li{

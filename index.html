@@ -11,44 +11,47 @@
 
 <body>
     <div class="strapline">
-        <li class="straplineText">Hit <p><button type="space-bar" onclick="changeColours()">Space</button></p> to generate colour palettes!</li>
+        <li class="straplineText">Hit 
+            <p><button type="space-bar" onclick="genColours()"> Space </button></p> to generate colour palettes!
+        </li>
+        <img class="export-colour" id ="export-button" title="Export palette" src="export.png" style="cursor: pointer"/>
     </div>
     <div class="container">
         <div class="colour-content1">
-            <img class="toggle-lock" id ="toggle-lock" src="lock.png" onmouseover="" style="cursor: pointer"/>
-            <img class="copy-colour" id ="copy-colour" src="copy.png" onmouseover="" style="cursor: pointer"/>
+            <img class="toggle-lock" id ="toggle-lock" title="Lock colour" src="lock.png" style="cursor: pointer"/>
+            <img class="copy-colour" id ="copy-colour1" title="Copy colour" src="copy.png" style="cursor: pointer"/>
             <div class="colour-hex"></div>
             <div class="colour-name"></div>
             <div class="current-hex1" value="#012345"></div>
-            <input type ="color" class="hex-changer" id="hex-edit">
+            <input type ="color" class="hex-changer1" id="hex-edit">
         </div>
         <div class="colour-content2">
-            <img class="toggle-lock" id ="toggle-lock" src="lock.png" onmouseover="" style="cursor: pointer"/>
-            <img class="copy-colour" id ="copy-colour" src="copy.png" onmouseover="" style="cursor: pointer"/>
+            <img class="toggle-lock" id ="toggle-lock" title="Lock colour" src="lock.png" style="cursor: pointer"/>
+            <img class="copy-colour" id ="copy-colour2" title="Copy colour" src="copy.png" style="cursor: pointer"/>
             <div class="colour-hex"></div>
             <div class="colour-name"></div>
             <div class="current-hex2" value="#012345"></div>
             <input type ="color" class="hex-changer2" id="hex-edit">
         </div>
         <div class="colour-content3">
-            <img class="toggle-lock" id ="toggle-lock" src="lock.png" onmouseover="" style="cursor: pointer"/>
-            <img class="copy-colour" id ="copy-colour" src="copy.png" onmouseover="" style="cursor: pointer"/>
+            <img class="toggle-lock" id ="toggle-lock" title="Lock colour" src="lock.png" style="cursor: pointer"/>
+            <img class="copy-colour" id ="copy-colour3" title="Copy colour" src="copy.png" style="cursor: pointer"/>
             <div class="colour-hex"></div>
             <div class="colour-name"></div>
             <div class="current-hex3" value="#012345"></div>
             <input type ="color" class="hex-changer3" id="hex-edit">
         </div>
         <div class="colour-content4">
-            <img class="toggle-lock" id ="toggle-lock" src="lock.png" onmouseover="" style="cursor: pointer"/>
-            <img class="copy-colour" id ="copy-colour" src="copy.png" onmouseover="" style="cursor: pointer"/>
+            <img class="toggle-lock" id ="toggle-lock" title="Lock colour" src="lock.png" style="cursor: pointer"/>
+            <img class="copy-colour" id ="copy-colour4" title="Copy colour" src="copy.png" style="cursor: pointer"/>
             <div class="colour-hex"></div>
             <div class="colour-name"></div>
             <div class="current-hex4" value="#012345"></div>
             <input type ="color" class="hex-changer4" id="hex-edit">    
         </div>
         <div class="colour-content5">
-            <img class="toggle-lock" id ="toggle-lock" src="lock.png" onmouseover="" style="cursor: pointer"/>
-            <img class="copy-colour" id ="copy-colour" src="copy.png" onmouseover="" style="cursor: pointer"/>
+            <img class="toggle-lock" id ="toggle-lock" title="Lock colour" src="lock.png" style="cursor: pointer"/>
+            <img class="copy-colour" id ="copy-colour5" title="Copy colour" src="copy.png" style="cursor: pointer"/>
             <div class="colour-hex"></div>
             <div class="colour-name"></div>
             <div class="current-hex5" value="#012345"></div>
